@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etiqueta &Atilde; SGV</title>
+    <style>
+        .menu{
+            list-style: none;
+        }
+        .menu a{
+            text-decoration: none;
+        }
+        svg.flag{
+            width: 700px;
+            height: 300px;
+            border: 2px solid black;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Banderas usando SVG</h1>
+    <p>Una bandera es una pieza de tela, normalmente rectangular, aunque puede adoptar formas muy variadas, que se sujeta por uno de sus lados a un asta, o se cuelga de una driza. Se utiliza para identificar o representar a una persona o grupo de personas. También puede servir para transmitir señales para comunicarse.</p>
+    <h1>La Bandera de Japon</h1>
+    <p>Consiste en un rectángulo de color blanco y con un gran disco rojo (representando al Sol) en el centro.</p>
+    <svg  class="flag" style="" >
+        <rect x="0" y="0" height="300" width="700"  fill="white" stroke="black" />
+        <circle cy="50%" cx="50%" r="130"   fill="red"/>
+    </svg>
+    <h2>La bandera de Italia</h2>
+    <svg class="flag" >
+        <rect x="" y="" width="233" height="300" style="fill:green"/>
+        <rect x="233" y="" width="233" height="300" style="fill:white"/>
+        <rect x="467" y="" width="233" height="300" style="fill:red"/>
+    </svg>
+    <h2>bandera de Turquia</h2>
+    <svg class="flag" style="background-color: red;">
+        <circle cy="50%" cx="50%" r="130"   fill="white"/>
+        <circle cx="55%" cy="40%" r="110" style="fill: red"/>
+        <path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z"/>
+    </svg>
+    <h2>practica </h2>
+    <svg width=" 700" hwight="700">
+        <polygon points="30,50 80,50 100,0 120,50 170,50 130,85 150,140 100,110 40,140 60,85 "  stroke-width="1" fill="green"></polygon>
+    </svg>
+    <h2>Practica bandera Jamaica</h2>
+    <svg width="700" height="300" style="background-color: green; border: 2px solid black" stroke="black" stroke-width="10" >
+        <polygon points="0,0 350,150 0,300"  stroke="black" stroke-width="10" fill="black"/>
+        <polygon  points="350,150 700,0 700,300" stroke="black" fill="black"/>
+        <line x1="0%" y1="0%" x2 ="100%" y2="100%" stroke-width="20" stroke="yellow" />
+        <line  x1="0%" y1="100%" x2="100%" y2="0%" stroke="yellow" stroke-width="20"/>
+    </svg>
+    <h2>practica</h2>
+    <svg class="flag">
+        <polyline points="10,50 65,20 120,50" fill="none"
+    stroke-width="20" stroke="RoyalBlue" stroke-linejoin="miter" />
+    </svg>
+    <br>
+    <svg class="flag">
+        <path d="M 10,70 L 30,40 L 70,100 L 130,10 A 70,30 0 0,0 150,40 " stroke="black" stroke-width="3" fill="none"/>
+        <path d="M 80,70 A 70,30 0 0,1 150, 40"  stroke="black" stroke-width="3" fill=" none"/>
+    </svg>
+    <br>
+    <svg class="flag">
+        <path d="M 10,130 A 30,30 0 1,0 10,100 M 10, 100 A 30,30 0 0,0 10,130" stroke="black" stroke-width="3" fill="none"/>
+        <text x="10" y="120" rotate="-90 -11 90 1 0  -60">DICXIE </text>
+    </svg>
+</body>
+</html>
